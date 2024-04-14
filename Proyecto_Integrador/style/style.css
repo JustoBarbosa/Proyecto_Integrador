@@ -1,0 +1,11 @@
+*{
+    background-color: rgb(43, 0, 63);
+    color: rgb(239, 173, 255);
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+.remeras{
+    color: red;
+}
