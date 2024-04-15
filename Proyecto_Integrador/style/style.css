@@ -1,11 +1,8 @@
 *{
     background-color: rgb(43, 0, 63);
     color: rgb(239, 173, 255);
-    display: flex;
+    display:flex;
     flex-wrap:wrap;
-    flex-direction:row;
-    justify-content:space-evenly;
-}
-.remeras{
-    color: red;
+    flex-direction:column
+    justify-content:column;
 }
