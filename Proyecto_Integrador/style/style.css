@@ -5,9 +5,13 @@
     flex-wrap:wrap;
     flex-direction:column;
     justify-content: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 title{
-    color: rgb(43, 0, 63);
+    color: rgb(255, 255, 255);
+    background-color: white;
 }
 .home{
     height: 650px;
@@ -97,4 +101,40 @@ img{
   .recuperarrecover {
     background-color: #007bff;
     color: #fff;
+  }
+
+  header, footer {
+    background-color: white;
+    padding: 10px;
+    height: 150px;
+  }
+  header ul{
+    display: flex;
+
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: black;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+
+  li{
+    list-style-type: none;
+  }
+
+  .paginas{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 12px 24px;
+    width: 100px;
+    display: inline-block;
+  }
+  
+  .logo{
+    height: 100px;
+    width: 100px;
+    align-content: center;
   }
