@@ -6,3 +6,95 @@
     flex-direction:column;
     justify-content: center;
 }
+title{
+    color: rgb(43, 0, 63);
+}
+.home{
+    height: 650px;
+    padding: 15px;
+    justify-content:space-evenly;
+    width: 150px;
+}
+img{
+    height: 200px;
+}
+
+
+
+.Login {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  
+.formlogin {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+.mail,
+.contraseña,
+.buttonlogin {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+.buttonlogin {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+.cuentant {
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+  .recover {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  
+  .metodorecover {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mailrecover,
+  .checkrecover,
+  .recuperarrecover {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .recuperarrecover {
+    background-color: #007bff;
+    color: #fff;
+  }
