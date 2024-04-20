@@ -104,7 +104,7 @@ img{
 
   /* header y footer*/
   header, footer {
-    background-color:rgb(239, 173, 255);
+    background-color:rgba(239, 173, 255, 0.6);
     padding: 10px;
     height: max-content;
     margin-bottom: 40px;
@@ -224,6 +224,7 @@ img{
   flex-direction: row-reverse;
   flex-wrap: nowrap;
   justify-content: space-around;
+  align-items: center;
   margin-top: 60px;
   margin-bottom: 60px;
   padding: 40px;
@@ -231,8 +232,8 @@ img{
 }
 
 div img{
-  height: 300px;
-  width: 300px;
+  height: 290px;
+  width: 250px;
   border-radius: 15px;
   margin: 20px;
   order: 0;
@@ -242,4 +243,65 @@ div img{
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  background-color: rgba(239, 173, 255, 0.251);
+  border-radius: 15px;
+  padding: 60px;
+}
+
+.detalles p, .detalles h2{
+  background-color: rgba(239, 173, 255, 0);
+} 
+
+.precio{
+  text-align: center;
+  margin: 20px;
+}
+
+.detalles a, nav{
+  text-align: center;
+  background-color: rgb(239, 173, 255);
+  color: black;
+  margin-top: 20px;
+}
+
+/*registro*/
+
+.registro {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(43, 0, 63);
+}
+
+.formregistro {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mail,
+.contraseña,
+.buttonlogin {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.buttonlogin {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cuentant {
+  text-decoration: none;
+  color: #007bff;
+  margin-right: 10px;
 }
