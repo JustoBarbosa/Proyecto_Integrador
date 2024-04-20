@@ -271,21 +271,19 @@ div img{
   padding: 0;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
   align-items: center;
-  background-color: rgb(43, 0, 63);
+  background-color:rgb(43, 0, 63);
 }
 
 .formregistro {
-  background-color: #fff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.mail,
-.contraseña,
-.buttonlogin {
+.email, .contraseña,.buttonlogin {
   width: 100%;
   margin-bottom: 10px;
   padding: 10px;
@@ -294,14 +292,41 @@ div img{
   box-sizing: border-box;
 }
 
-.buttonlogin {
-  background-color: #007bff;
+.buttonregister {
   color: #fff;
   cursor: pointer;
+  text-align: center;
 }
 
-.cuentant {
+.volverlogin {
   text-decoration: none;
   color: #007bff;
   margin-right: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.fotoregistro{
+width: fit-content;
+height: 790px;
+border-radius: 0px;
+margin: 0;
+}
+
+.refran2{
+  order: 0;
+}
+.formulario{
+  display: flex;
+  flex-direction: column;
+}
+
+.formregistro{
+  background-color: rgba(239, 173, 255, 0.251);
+  margin: 10px;
+}
+
+.acepto, .buttonregister, .acepto2{
+  background-color: rgba(239, 173, 255, 0);
+  padding: 5px;
 }
