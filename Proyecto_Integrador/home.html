@@ -10,75 +10,55 @@
 
 <link rel="stylesheet" href="./style/style.css">
 <style>
+
 .home{
     display:flex;
     flex-direction:row;
     flex-wrap: wrap;
-    margin: 10px;
     justify-content: space-around;
-    align-content:space-around;
 }
+
 .remeras, 
 .Pantalones, 
 .Gorro{
-padding-top: 40px;
-    margin-top: 300px;
-    margin-bottom: 100px;
-    align-content: space-between;
-    justify-content:space-around;
+    align-content: space-around;
+    justify-content:space-evenly;
     width: 30%;
+    height: 30%;
 }
 ul{
-    border: solid white;
-    height:500px;
+    border: solid rgb(239, 173, 255);
     padding: auto;
     width: 300px;
 }
 
-header, ul{
-    height: fit-content;
-}
 .nav{
     width: 100vw
 }
-
-header, footer {
-    background-color:rgba(239, 173, 255);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    position: absolute;
-    width: 100%;
-  
+@media only screen and (max-width: 900px){
+    .home{
+        flex-direction: column;
+        align-items: center;
+    }
 }
-  header{
-    align-self:first baseline;
-    height:fit-content;
-  }
-  footer{
-    align-self:self-end;
-    height: fit-content;
-  }
 </style>
 </head>
 <body class="home">
-<header>
-            <img src="./img/Duck & Koi.png" alt="logo" class="logo">
-            <nav class="cabecera">
-                <ul class="nav">
-                    <li><a href="./home.html" class="paginas">Home</a></li>
-                    <li><a href="./accesorios.html" class="paginas">Electronica</a></li>
-                    <li><a href="./accesorios.html" class="paginas">Accesorios</a></li>
-                    <li><a href="./accesorios.html" class="paginas">Hombre</a></li>
-                    <li><a href="./accesorios.html" class="paginas">Mujer</a></li>
-                    <li><a href="./carrito.html" class="paginas">Carrito</a></li>
-                    <li><a href="./login.html" class="paginas">Login</a></li>
-                    <li><a href="./registro.html" class="paginas">Registro</a></li>
-                </ul>
-            </nav>
-    </header> 
-
+    <header>
+        <img src="./img/Duck & Koi.png" alt="logo" class="logo">
+        <nav class="cabecera">
+            <ul class="nav">
+                <li><a href="./home.html" class="paginas">Home</a></li>
+                <li><a href="./accesorios.html" class="paginas">Electronica</a></li>
+                <li><a href="./accesorios.html" class="paginas">Accesorios</a></li>
+                <li><a href="./accesorios.html" class="paginas">Hombre</a></li>
+                <li><a href="./accesorios.html" class="paginas">Mujer</a></li>
+                <li><a href="./carrito.html" class="paginas">Carrito</a></li>
+                <li><a href="./login.html" class="paginas">Login</a></li>
+                <li><a href="./registro.html" class="paginas">Registro</a></li>
+            </ul>
+        </nav>
+        </header>
 <div class="remeras">
 <ul>
     <li>
@@ -237,8 +217,9 @@ header, footer {
     </ul>
 </div>
 
+</body>
 <footer>
     <p>by Justo Barbosa and Marcos Teruelo</p>
 </footer>
-</body>
+
 </html>
