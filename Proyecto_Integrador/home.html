@@ -4,75 +4,131 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="./style/style.css">
+<style>
+.home{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-around;
+align-content:space-around;
+}
+.remeras, 
+.Pantalones, 
+.Gorro{
+padding-top: 40px;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    align-content: space-between;
+    justify-content:space-around;
+    width: 30%;
+}
+ul{
+    border: solid white;
+    height:500px;
+    padding: auto;
+    width: 300px;
+}
+
+header, ul{
+    height: fit-content;
+}
+.nav{
+    width: 100vw
+}
+
+header, footer {
+    background-color:rgba(239, 173, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+  
+}
+  header{
+    align-self:first baseline;
+    height:fit-content;
+  }
+  footer{
+    align-self:self-end;
+    height: fit-content;
+  }
+
+
+</style>
+
 </head>
 <body class="home">
-    <header>
-        <img src="./img/Duck & Coi.png" alt="logo">
-        <nav>
-            <ul>
-                <li><a href="./home.html">Home</a></li>
-               <li><a href="./accesorios.html">Electronica</a></li>
-                <li><a href="./accesorios.html">Accesorios</a></li>
-                <li><a href="./accesorios.html">Hombre</a></li>
-                <li><a href="./accesorios.html">Mujer</a></li>
-                <li><a href="./carrito.html">Carrito</a></li>
-                <li><a href="./login.html">Login</a></li>
-                <li><a href="./registro.html">Registro</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+            <img src="./img/Duck & Koi.png" alt="logo" class="logo">
+            <nav class="cabecera">
+                <ul class="nav">
+                    <li><a href="./home.html" class="paginas">Home</a></li>
+                    <li><a href="./accesorios.html" class="paginas">Electronica</a></li>
+                    <li><a href="./accesorios.html" class="paginas">Accesorios</a></li>
+                    <li><a href="./accesorios.html" class="paginas">Hombre</a></li>
+                    <li><a href="./accesorios.html" class="paginas">Mujer</a></li>
+                    <li><a href="./carrito.html" class="paginas">Carrito</a></li>
+                    <li><a href="./login.html" class="paginas">Login</a></li>
+                    <li><a href="./registro.html" class="paginas">Registro</a></li>
+                </ul>
+            </nav>
+    </header> 
+
 <div class="remeras">
 <ul>
-    <article class="remera1">
-    <li class="remera1">
+    <li>
         <h2>Remera EcoWabe</h2>
             <img src="./img/Remera 1.png" alt="remera1">
-            <ul>
                 <li>Hecha 100% con algodon organico</li>
-                <li>Remera overzise</li>
-                </ul>
+                <li>Oversize brown t-shirt with happy feelings design</li>
             <p>45000$</p>
             <a href="index.html">Ver detalles del producto</a>
         </li>
-    </article>
+</ul>
+<ul>
     <li class="remera2">
         <h2>Remera BreezeConfort</h2>
         <img src="./img/Remera 2.png" alt="remera2">
-            <ul>
                 <li>Hecha 100% con algodon organico</li>
-                <li>Descripcion</li>
-                </ul>
+                <li>Bring heads to destoy design</li>
           <p>45000$</p>
           <a href="index.html">Ver detalles del producto</a>
         </li>
-    <li class="remera3">
+    </ul>
+    <ul>
+        <li class="remera3">
         <h2>Remera AuraTee</h2>
             <img src="./img/Remera 3.png" alt="remera3">
-            <ul>
                 <li>Hecha 100% con algodon organico</li>
-                <li>Descripcion</li>
-                </ul>
+                <li>Small tee with evolution</li>
                 <p>45000$</p>
                 <a href="index.html">Ver detalles del producto</a>
         </li>
+    </ul>
+<ul>
     <li class="remera4">
         <h2>Remera DreamDrape</h2>
             <img src="./img/Remera 4.png" alt="remera4">
-            <ul>
                 <li>Hecha 100% con algodon organico</li>
-                <li>Descripcion</li>
-                </ul>
+                <li>Happy lover skeletons</li>
                 <p>45000$</p>
                 <a href="index.html">Ver detalles del producto</a>
     </li>
+</ul>
+<ul>
     <li class="remera5">
         <h2>LuminaTee</h2>
             <img src="./img/Remera 5.png" alt="remera5">
-            <ul>
                 <li>Hecha 100% con algodon organico</li>
-                <li>Descripcion</li>
-                </ul>
+                <li>Hot girl tee</li>
                 <p>45000$</p>
                 <a href="index.html">Ver detalles del producto</a>
         </li>
@@ -84,50 +140,48 @@
     <li class="pantalon1">
         <h2>Pantalon UrbanFlex</h2>
             <img src="./img/Pantalon 1.png" alt="pantalon1">
-            <ul>
                 <li>Jean de uso urbano hecho con algodon resistente</li>
-                <li>Descripcion</li>
-            </ul>
+                <li>Straight blue jean</li>
             <p>65000$</p>
             <a href="index.html">Ver detalles del producto</a>
     </li>
+</ul>
+<ul>
     <li class="pantalon2">
         <h2>Pantalon RelaxDenim</h2>
             <img src="./img/Pantalon 2.png" alt="pantalon2">
-            <ul>
                 <li>Jean de uso urbano hecho con algodon resistente</li>
-                <li>Descripcion</li>
-            </ul>
+                <li>Straight black jean with cool design on the front</li>
             <p>65000$</p>
             <a href="index.html">Ver detalles del producto</a>
     </li>
+</ul>
+<ul>
     <li class="pantalon3">
         <h2>Casual CasualFlex</h2>
             <img src="./img/Pantalon 3.png" alt="pantalon3">
-            <ul>
                 <li>Jean de uso urbano hecho con algodon resistente</li>
-                <li>Descripcion</li>
-            </ul>
+                <li>Blue jeans with yellow frayed</li>
             <p>65000$</p>
             <a href="index.html">Ver detalles del producto</a>
     </li>
+</ul>
+<ul>
     <li>
         <h2>Pantalon StreetEase</h2>
             <img src="./img/Pantalon 4.png" alt="Pantalon4">
-            <ul>
                 <li>Jean de uso urbano hecho con algodon resistente</li>
-                <li>Descripcion</li>
-            </ul>
+                <li>Straight blue jean with cool design on the front</li>
             <p>65000$</p>
             <a href="index.html">Ver detalles del producto</a>
     </li>
+</ul>
+<ul>
     <li>
         <h2>Pantalon UrbanSwagger</h2>
             <img src="./img/Pantalon 5.png" alt="Pantalon5">
-            <ul>
-                <li>Jean de uso urbano hecho con algodon resistente</li>
-                <li>Descripcion</li>
-            </ul>
+                <li>Pantalon estilo deportivo</li>
+                <li>White background with electrifying blue lines</li>
             <p>65000$</p>
             <a href="index.html">Ver detalles del producto</a>
     </li>
@@ -138,55 +192,54 @@
     <li>
         <h2>Gorro FrostShield</h2>
             <img src="./img/Gorrito 1.png" alt="Gorrito1">
-            <ul>
                 <li>Gorro de lana</li>
-                <li>Descripcion</li>
-            </ul>
+                <li>Featuring NAMED COLLECTIVE script logo embroidery on front in black</li>
             <p>20000$</p>
             <a href="index.html">Ver detalles del producto</a>
     </li>
+</ul>
+<ul>
     <li>
         <h2>Gorro StreetStyle</h2>
             <img src="./img/Gorrito 2.png" alt="Gorrito2">
-            <ul>
                 <li>Gorro de lana</li>
-                <li>Descripcion</li>
-            </ul>
+                <li>Classic knitted black beanie with white 'NAMED' graphic logo wrapping from</li>
             <p>20000$</p>
             <a href="index.html">Ver detalles del producto</a>
     </li>
+</ul>
+<ul>
     <li>
         <h2>Gorro UrbanEdge</h2>
             <img src="./img/Gorrito 3.png" alt="Gorrito3">
-            <ul>
                 <li>Gorro de lana</li>
-                <li>Descripcion</li>
-            </ul>
+                <li>Classic knitted white beanie featuring all over NAMED graffiti lettering</li>
             <p>20000$</p>
             <a href="index.html">Ver detalles del producto</a>
     </li>
+</ul>
+<ul>
     <li>
         <h2>Gorro CoolCrown</h2>
             <img src="./img/Gorrito 4.png" alt="Gorrito4">
-            <ul>
                 <li>Gorro de lana</li>
-                <li>Descripcion</li>
-            </ul>
+                <li>Black knit beanie with THORN graphic throughout</li>
             <p>20000$</p>
             <a href="index.html">Ver detalles del producto</a>
     </li>
+</ul>
+<ul>
     <li>
         <h2>Gorro StylePick</h2>
             <img src="./img/Gorrito 5.png" alt="Gorrito5">
-            <ul>
                 <li>Gorro de lana</li>
-                <li>Descripcion</li>
-            </ul>
+                <li>Featuring a hot pink 'blow a kiss' mascot knitted on the front</li>
             <p>20000$</p>
             <a href="index.html">Ver detalles del producto</a>
     </li>
     </ul>
 </div>
+
 <footer>
     <p>by Justo Barbosa and Marcos Teruelo</p>
 </footer>
