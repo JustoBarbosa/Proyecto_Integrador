@@ -155,12 +155,12 @@ img{
 /*accesorios*/
 
 .categorias{
-  height: 80vh;
+  height: 140vh;
 }
 
 
 .Gorro2{
-  height: 80vh;
+  height: 140vh;
   border: 5px solid rgb(239, 173, 255);
 
 }
@@ -200,6 +200,8 @@ img{
   background-color: rgba(239, 173, 255, 0.251);
 }
 
+
+
 /*detalle de producto*/
 
 .refran{
@@ -226,8 +228,8 @@ img{
 }
 
 div img{
-  height: 290px;
-  width: 250px;
+  height: 40vh;
+  width: 30vh;
   border-radius: 15px;
   margin: 20px;
   order: 0;
@@ -325,3 +327,45 @@ margin: 0;
   padding: 5px;
 }
 /*fijate que vos vas a necesitar hacer un media mas grande porque tu pantalla es tan grande que hasta a mi se me rompe el programa*/
+
+@media(max-width:900px){
+
+ .Gorro2, .categorias{
+  height: 60vh;
+ }
+  .categorias li{
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+  .lista-gorros{
+    padding: 0px;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+  }
+  
+  .Gorro2 img{
+    border-radius: 15px;
+    height: 150px;
+    width: 120px;
+    
+  }
+
+  .fotoregistro{
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+  }
+  .registro{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+}
+
+
+  
+
+
