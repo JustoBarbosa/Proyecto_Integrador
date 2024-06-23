@@ -7,16 +7,15 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body class="Login">
-    <form action="" method="post" class="formlogin">
-        <input type="text" name="email" placeholder="Email" class="mail">
-        <input type="password" name="password" placeholder="Contraseña"class="contraseña">
-        <a href="./home.html">
-        <button type="button"  class="buttonlogin" >Ingresar</button>
-    </a>
+  <form id="loginForm" action="" method="post" class="form-login">
+        <input type="text" id="email" name="email" placeholder="Email" class="imput-field">
+        <input type="password" id="password" name="password" placeholder="Contraseña"class="imput-field">
+        <button type="button" id="loginButton" class="button-login">Ingresar</button>
         <div>
           <a href="./registro.html" class="cuentant">No tengo cuenta</a>
           <a href="./recover.html" class="cuentant">Recuperar contraseña</a>
         </div>
       </form>
+      <script src="./js/login.js"></script>
 </body>
 </html>
