@@ -31,25 +31,26 @@
 <section class="registro">
     <div class="formulario">
     <h1 class="refran refran2">JOIN THE DUCK AND KOI</h1>
-    <form action="login.html" method="get" class="formregistro">
+    <form action="login.html" method="post" class="formregistro">
         <div class="email">
             <label>Email</label>
-            <input type= "email" name="mail" value="">
+            <input type= "email" name="mail" value="" id="email">
+            <div class="error"></div>
         </div>
         <div class="contraseña">
             <label>Contraseña</label>
-            <input type="password" name="pass" value="">
+            <input type="password" name="pass" value="" id="contraseña">
+            <div class="error2"></div>
         </div>
         <div class="contraseña">
             <label>Repetir Contraseña</label>
-            <input type="password" name="pass" value="">
+            <input type="password" name="pass" value="" id="repetirContra">
+            <div class="error3"></div>
         </div>
         <div class="acepto">
-            <label for="radio" class="acepto2">Acepta los terminos y condiciones
-            <input type="radio" name="terminos-y-condiciones" value="si">
-            Si
-            <input type="radio" name="terminos-y-condiciones" value="no">
-            No
+            <label for="terminos y condiciones" class="acepto2">
+                <input type="checkbox" id="TC">
+                Acepto los terminos y condiciones
             </label>
         </div>
         <div class="buttonregister">
@@ -66,5 +67,6 @@
     <footer>
         <p>By Justo Barbosa and Marcos Teruelo</p>
     </footer>
+    <script src="./js/registro.js"></script>
 </body>
 </html>
