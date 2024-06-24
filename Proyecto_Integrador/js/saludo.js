@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
         header.appendChild(welcomeMessage);
         header.appendChild(logoutLink);
 
-        const loginLink = document.querySelector('.login-link');
-        const registroLink = document.querySelector('.registro-link');
+        const loginLink = document.querySelector('.login-header');
+        const registroLink = document.querySelector('.registro-header');
         
         if (loginLink) {
             loginLink.style.display = 'none';
