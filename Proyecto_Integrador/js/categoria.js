@@ -22,7 +22,7 @@ window.onload = function() {
                         <section class="texto">
                             <p>${producto.description}</p>
                             <p>${producto.price}$</p>
-                            <a href="detalle.html?id=${producto.id}">Ver detalles del producto</a>
+                            <a href="./index.html?id=${producto.id}">Ver detalles del producto</a>
                         </section>
                     </li>
                 `;
