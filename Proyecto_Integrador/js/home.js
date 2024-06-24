@@ -20,7 +20,7 @@ window.onload = function(){
                             <img src="${product.image}" alt="${product.title}">
                             <li>${product.description}</li>
                             <p>${product.price}$</p>
-                            <a href="detalle_producto.html?id=${product.id}">Ver detalles del producto</a>
+                            <a href="index.html?id=${product.id}">Ver detalles del producto</a>
                         </li>
                     </ul>
                 `;
@@ -40,7 +40,7 @@ window.onload = function(){
                             <img src="${product.image}" alt="${product.title}">
                             <p>${product.description}</p>
                             <p>${product.price}$</p>
-                            <a href="detalle_producto.html?id=${product.id}">Ver detalles del producto</a>
+                            <a href="index.html?id=${product.id}">Ver detalles del producto</a>
                         </li>
                     </ul>
                 `;
@@ -59,7 +59,7 @@ window.onload = function(){
                             <img src="${product.image}" alt="${product.title}">
                             <p>${product.description}</p>
                             <p>${product.price}$</p>
-                            <a href="detalle_producto.html?id=${product.id}">Ver detalles del producto</a>
+                            <a href="index.html?id=${product.id}">Ver detalles del producto</a>
                         </li>
                     </ul>
                 `;
