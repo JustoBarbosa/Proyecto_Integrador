@@ -29,6 +29,43 @@ window.onload = function(){
             ;
         })}
     
+        let ropaMujerContainer = document.getElementById('ropaMujeres');
+        if (ropaMujerContainer) {
+            ropaMujerContainer.innerHTML = "";
+            ropaMujer.forEach(product => {
+                let interior2 = `
+                    <ul>
+                        <li>
+                            <h2>${product.title}</h2>
+                            <img src="${product.image}" alt="${product.title}">
+                            <p>${product.description}</p>
+                            <p>${product.price}$</p>
+                            <a href="detalle_producto.html?id=${product.id}">Ver detalles del producto</a>
+                        </li>
+                    </ul>
+                `;
+                ropaMujerContainer.innerHTML += interior2;
+            });
+        }
+
+        let ropaHombreContainer = document.getElementById('ropaHombre');
+        if (ropaHombreContainer) {
+            ropaHombreContainer.innerHTML = "";
+            ropaHombre.forEach(product => {
+                let interior3 = `
+                    <ul>
+                        <li>
+                            <h2>${product.title}</h2>
+                            <img src="${product.image}" alt="${product.title}">
+                            <p>${product.description}</p>
+                            <p>${product.price}$</p>
+                            <a href="detalle_producto.html?id=${product.id}">Ver detalles del producto</a>
+                        </li>
+                    </ul>
+                `;
+                ropaHombreContainer.innerHTML += interior3;
+            });
+        }
     })
     .catch(function(error){
         console.log('Error: ' + error);
